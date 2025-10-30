@@ -4,6 +4,11 @@ author: "Cerys Williams"
 date: "`r Sys.Date()`"
 output: html_document
 ---
+## Summary of Tidy Dataset
+
+This dataset contains the average of each selected measurement (mean and standard deviation) for each activity and each subject. It includes 180 rows (30 subjects × 6 activities) and 68 variables.
+
+Each variable represents a mean value of a sensor signal, grouped by subject and activity. The dataset was created using base R functions and follows tidy data principles.
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
