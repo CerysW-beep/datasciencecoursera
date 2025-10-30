@@ -9,8 +9,9 @@ The goal of this project was to create a tidy dataset from the UCI Human Activit
 ## Files Included
 
 - `run_analysis.R`: R script that downloads, processes, and tidies the dataset.
-- `tidy_data.txt`: Final tidy dataset containing the average of each variable for each activity and each subject.
-- `CodeBook.md` or `CodeBook.html`: Describes the variables, data structure, and transformations applied.
+- `tidy_data.txt`: Dataset containing the only the measurements on the mean and standard deviation for each measurement.
+- `summary_data.txt`: Final tidy dataset containing the average of each variable for each activity and each subject.
+- `CodeBook.md`: Describes the variables, data structure, and transformations applied.
 
 ## How to Reproduce
 
